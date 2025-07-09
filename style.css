@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'cub';
+  src: url('media/cub.ttf') format('truetype');
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(to bottom, #0f1417, #1b202b);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white; /* optional: improves readability */
+}
+
+* {
+    font-family: "cub", Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.page1 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    font-weight: 100;
+
+}
+
+.myinfo-container {
+    width: 400px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0545ab;
+    border-radius: 8px;
+}
+
+.infotext {
+    padding: 10px;
+}
+
+.myiconblur {
+    position: relative;
+    width: 256px;
+    height: 256px;
+    overflow: hidden;
+    border-radius: 22px;
+}
+
+.myiconblur::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("media/licon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(10px);
+    z-index: 0;
+}
+
+.myiconblur::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("media/icon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    mix-blend-mode: overlay; /* Optional for visual blending */
+}
+
+.percentbox-trap {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.percentbox {
+    margin-right: 15px;
+    margin-left: 8px;
+    width: 80%;
+    height: 64px;
+    background-color: red;
+
+}
+
+.percentbox-icon {
+    margin-left: 15px;
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+}
