@@ -7,20 +7,13 @@ Welcome to **LuckysLanding** – the cozy digital den of a coding femboy, furry,
 Hey there! I'm **luckiestfemboy** —  
 
 - 🧠 Web Developer | Python Programmer  
-- 🐾 Furry & Tech Enthusiast  
 - 🍕 Pizza and 🥞 Pancake Addict  
 - 🧒 Age: 15  
-- 🧑‍💻 Gender: Male  
-- 💖 Sexuality: Straight / Pan  
-- 🌿 Favorite Game: Minecraft  
-
-🐺 *Woof woof~*
+- 🧑‍💻 Gender: Male    
 
 ## 💻 What is LuckysLanding?
 
-**LuckysLanding** is my personal GitHub space where I share all the things I’m working on — from websites and Python tools to cool side projects and more.
-
-Expect fun, creativity, and maybe a few paws here and there 🐾
+**LuckysLanding** is my personal GitHub space where I put my 
 
 ## 🔧 Skills & Tools
 
