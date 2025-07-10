@@ -2,12 +2,25 @@
 body {
   margin: 0;
   padding: 2rem;
-  background: linear-gradient(to bottom, #0f1417, #1b202b);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
-  min-height: 100vh;
+  height: fit-content;
   overflow-x: hidden;
+  width: 100vw;
+  background-image: url("media/nightyhdfun.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* <--- this is the key */
+  background-position: center;
 }
+
+.fullbgbackground {
+  background-image: url("media/blur10.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* <--- this is the key */
+  background-position: center;
+}
+
 
 /* Container */
 .container {
