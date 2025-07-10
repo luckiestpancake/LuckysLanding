@@ -1,110 +1,125 @@
-@font-face {
-  font-family: 'cub';
-  src: url('media/cub.ttf') format('truetype');
+/* Base styling */
+body {
+  margin: 0;
+  padding: 2rem;
+  background: linear-gradient(to bottom, #0f1417, #1b202b);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  min-height: 100vh;
 }
 
-
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background: linear-gradient(to bottom, #0f1417, #1b202b);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    color: white; /* optional: improves readability */
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
 }
 
-* {
-    font-family: "cub", Arial, Helvetica, sans-serif;
-    padding: 0;
-    margin: 0;
+/* Card styles */
+.card {
+  background: radial-gradient(circle at top left, #0545ab, #021a40);
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 32rem;
+  width: 100%;
+  box-shadow: 0 0 25px rgba(0, 110, 255, 0.4);
+  transition: 0.3s ease all;
 }
 
-.page1 {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    text-align: center;
-    font-weight: 100;
-
+.card:hover {
+  box-shadow: 0 0 35px rgba(0, 110, 255, 0.7);
+  transform: translateY(-4px);
 }
 
-.myinfo-container {
-    width: 400px;
-    height: 550px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #0545ab;
-    border-radius: 8px;
+.card-title {
+  font-size: 1.75rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
-.infotext {
-    padding: 10px;
+.card-text {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  text-align: left;
 }
 
+/* Icon blur profile */
 .myiconblur {
-    position: relative;
-    width: 256px;
-    height: 256px;
-    overflow: hidden;
-    border-radius: 22px;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.1);
 }
 
 .myiconblur::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url("media/licon.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    filter: blur(10px);
-    z-index: 0;
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: url("media/licon.png");
+  background-size: cover;
+  background-position: center;
+  filter: blur(18px);
+  z-index: 0;
 }
 
 .myiconblur::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url("media/icon.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 1;
-    mix-blend-mode: overlay; /* Optional for visual blending */
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: url("media/icon.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  mix-blend-mode: lighten;
 }
 
-.percentbox-trap {
-    width: 100%;
-    height: 64px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+/* Language progress bars */
+.lang-block {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
-.percentbox {
-    margin-right: 15px;
-    margin-left: 8px;
-    width: 80%;
-    height: 64px;
-    background-color: red;
-
+.lang-icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
 
-.percentbox-icon {
-    margin-left: 15px;
-    width: 64px;
-    height: 64px;
-    border-radius: 8px;
+.lang-bar {
+  flex: 1;
+  height: 1.25rem;
+  background: white;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
 }
+
+.lang-fill {
+  height: 100%;
+  transition: width 0.8s ease;
+}
+
+.lang-percent {
+  width: 3rem;
+  text-align: right;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* Bar Colors */
+.html { background: #f97316; }        /* Orange */
+.python { background: #fde047; }      /* Yellow */
+.java { background: #ef4444; }        /* Red */
+.js { background: #facc15; }          /* Light Yellow */
