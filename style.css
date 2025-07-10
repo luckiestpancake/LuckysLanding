@@ -11,6 +11,10 @@ body {
   background-size: cover;
   background-attachment: fixed; /* <--- this is the key */
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 .fullbgbackground {
@@ -20,6 +24,31 @@ body {
   background-attachment: fixed; /* <--- this is the key */
   background-position: center;
 }
+
+.image-gallerylink {
+  position: fixed;
+  bottom: 20px;
+  margin: 15px;
+  right: 20px;
+  z-index: 1000; /* Makes sure it stays on top */
+  background-color: #007bff;
+  color: white;
+  padding: 16px 22px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bolder;
+  opacity: 0.7;
+  transition: all 0.3s ease-in-out;
+}
+
+.image-gallerylink:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  opacity: 1;
+}
+
 
 
 /* Container */
