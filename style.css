@@ -147,6 +147,15 @@ body {
   z-index: 0;
 }
 
+.friendsicons {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.1);
+}
+
 .myiconblur::after {
   content: "";
   position: absolute;
