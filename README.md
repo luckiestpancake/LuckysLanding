@@ -1,6 +1,6 @@
 # LuckysLanding
 
-Welcome to **LuckysLanding** – the cozy digital den of a coding femboy, furry, and full-stack dreamer 💻✨
+Welcome to **LuckysLanding** – the place where I put my progress and fun artistic css styling
 
 ## 👋 About Me
 
@@ -13,7 +13,7 @@ Hey there! I'm **luckiestfemboy** —
 
 ## 💻 What is LuckysLanding?
 
-**LuckysLanding** is my personal GitHub space where I put my 
+**LuckysLanding** its just a place where I list friends, stuff about me like a bio or my coding ranking list 
 
 ## 🔧 Skills & Tools
 
