@@ -27,5 +27,4 @@ Hey there! I'm **luckiestfemboy** —
 Wanna collab or just say hi? Find me on Discord:  
 **luckiestfemboy**
 
-## 🐾 Final Woof
 
