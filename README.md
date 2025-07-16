@@ -1,4 +1,4 @@
-![Alt text]([https://user-images.githubusercontent.com/your-id/your-image.png](https://avatars.githubusercontent.com/u/220081874?s=400&u=96315c95685ac6e6bccc8f976ebc67974c1fd1c1&v=4))
+![Alt text](https://avatars.githubusercontent.com/u/220081874?s=400&u=96315c95685ac6e6bccc8f976ebc67974c1fd1c1&v=4)
 
 # LuckysLanding
 
