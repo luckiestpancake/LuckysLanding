@@ -1,3 +1,5 @@
+![Alt text](https://user-images.githubusercontent.com/your-id/your-image.png)
+
 # LuckysLanding
 
 Welcome to **LuckysLanding** – the place where I put my progress and fun artistic css styling
