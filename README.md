@@ -1,3 +1,5 @@
+![Alt text](https://avatars.githubusercontent.com/u/220081874?s=400&u=96315c95685ac6e6bccc8f976ebc67974c1fd1c1&v=4)
+
 # LuckysLanding
 
 Welcome to **LuckysLanding** – the place where I put my progress and fun artistic css styling
