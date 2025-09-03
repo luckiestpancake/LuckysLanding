@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
 
-    // Ensure the search box card itself remains visible
+
     const searchCard = document.querySelector('.search-card');
     if (searchCard) {
       searchCard.style.display = 'block';

@@ -10,7 +10,7 @@ class TextScramble {
   }
 
   start() {
-    this.stop(); // clear any existing loops
+    this.stop();
     this.frame = setInterval(() => {
       const scrambled = Array.from(this.originalText)
         .map(char =>
@@ -32,14 +32,14 @@ class TextScramble {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  // Scramble effect
+
   document.querySelectorAll('.floaty-name').forEach(el => {
     const scrambler = new TextScramble(el);
     el.addEventListener('mouseenter', () => scrambler.start());
     el.addEventListener('mouseleave', () => scrambler.stop());
   });
 
-  // Apply floating style to all .image-gallerylink elements
+
   document.querySelectorAll('.image-gallerylink').forEach(el => {
     Object.assign(el.style, {
       position: 'fixed',
